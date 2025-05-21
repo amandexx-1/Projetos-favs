@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cardápio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="project.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="search-box">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Buscar pratos" />
+        </div>
+
+        <h2>PRATO DO DIA</h2>
+        <img class="dish-image" src="https://images.unsplash.com/photo-1572441710534-336e8f9eb1f3" alt="Prato do Dia">
+
+        <div class="item">
+            <img src="https://via.placeholder.com/50" alt="Salada Colorida">
+            <div class="item-name">Salada Colorida<br>R$ 30.90</div>
+            <button class="added">Adicionado</button>
+        </div>
+
+        <div class="item">
+            <img src="https://via.placeholder.com/50" alt="Strogonoff">
+            <div class="item-name">Strogonoff de Cogumelos<br>R$ 40.90</div>
+            <button onclick="addToCart(this)">Adicionar</button>
+        </div>
+
+        <div class="item">
+            <img src="https://via.placeholder.com/50" alt="Risoto">
+            <div class="item-name">Risoto de Legumes<br>R$ 35.90</div>
+            <button onclick="addToCart(this)">Adicionar</button>
+        </div>
+
+        <button class="cart-button">R$ 36,90 • Ver carrinho</button>
+    </div>
+
+    <div class="nav">
+        <div class="active">
+            <i class="fas fa-utensils"></i><br>Cardápio
+        </div>
+        <div>
+            <i class="fas fa-star"></i><br>Ofertas
+        </div>
+        <div>
+            <i class="fas fa-user"></i><br>Perfil
+        </div>
+    </div>
+
+    <script>
+        function addToCart(button) {
+            button.textContent = 'Adicionado';
+            button.classList.add('added');
+            button.disabled = true;
+        }
+    </script>
+</body>
+
+</html>
