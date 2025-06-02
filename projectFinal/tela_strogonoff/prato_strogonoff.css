@@ -35,9 +35,11 @@ h2 {
 }
 
 .dish-image {
-    width: 100%;
-    border-radius: 12px;
-    margin: 10px 0;
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    margin-right: 10px;
+    align-items: center;
 }
 
 .item {
