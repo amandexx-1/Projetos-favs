@@ -71,11 +71,11 @@ h2 {
     border: none;
 }
 
-.cart-button {
+.botao {
     display: block;
     width: 100%;
     padding: 15px;
-    background-color: #a5c4a2;
+    background-color: #91d189;
     color: white;
     font-weight: bold;
     border: none;
@@ -83,6 +83,13 @@ h2 {
     font-size: 16px;
     margin-top: 20px;
     cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.botao:hover {
+  background-color: #68a16b;
 }
 
 .nav {
