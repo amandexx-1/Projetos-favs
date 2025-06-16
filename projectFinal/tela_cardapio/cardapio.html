@@ -4,11 +4,10 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tela Principal</title>
+    <title>Cardápio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="/css/project.css">
+    <link rel="stylesheet" href="/projectFinal/tela_cardapio/cardapio.css">
 </head>
-
 
 <body>
     <div class="container">
@@ -17,10 +16,7 @@
             <input type="text" placeholder="Buscar pratos" />
         </div>
 
-        <h2>PRATO DO DIA</h2>
-
-        <img class="dish-image" src="/imagens/prato_do_dia.png" alt="Prato do Dia">
-
+        <h2>Pratos</h2>
 
 
         <div class="item">
@@ -30,6 +26,16 @@
             <div class="item-name">Strogonoff de Cogumelos<br>R$ 40.90</div>
             <button onclick="addToCart(this)">Adicionar</button>
         </div>
+
+
+        <div class="item">
+            <a href="/projectFinal/tela_caldo/prato_caldo.html">
+                <img src="/imagens/sopa.png" alt="sopa">
+            </a>
+            <div class="item-name">Caldo de Legumes Assados<br>R$ 35.90</div>
+            <button onclick="addToCart(this)">Adicionar</button>
+        </div>
+
 
 
         <div class="item">
@@ -49,6 +55,24 @@
             <div class="item-name">Risoto de Legumes<br>R$ 35.90</div>
             <button onclick="addToCart(this)">Adicionar</button>
         </div>
+
+        <div class="item">
+            <a href="/projectFinal/tela_macarrão/prato_macarrão.html">
+                <img src="/imagens/massa.png" alt="Massa">
+            </a>
+            <div class="item-name">Macarrão Temperado<br>R$ 35.90</div>
+            <button onclick="addToCart(this)">Adicionar</button>
+        </div>
+
+
+        <div class="item">
+            <a href="/projectFinal/tela_palmito/prato_palmito.html">
+                <img src="/imagens/torta_p.png" alt="Torta">
+            </a>
+            <div class="item-name">Torta de Palmito<br>R$ 35.90</div>
+            <button onclick="addToCart(this)">Adicionar</button>
+        </div>
+
 
 
         <a href="/projectFinal/tela_carrinho/carrinho.html" class="botao">Ver carrinho</a>
