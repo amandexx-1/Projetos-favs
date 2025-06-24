@@ -28,7 +28,7 @@
                 <img src="imagens/salada_roxa.png" alt="Prato 2">
             </div>
             <div class="carousel-slide fade">
-                <img src="imagens/prato_do_dia.png" alt="Prato 3">
+                <img src="imagens/mouse.png" alt="Prato 3">
             </div>
         </div>
 
