@@ -12,6 +12,15 @@ body {
     background: white;
 }
 
+.data {
+    font-size: 14px;
+    color: #666;
+}
+
+.preco {
+    margin-bottom: 30px;
+}
+
 .search-box {
     display: flex;
     align-items: center;
