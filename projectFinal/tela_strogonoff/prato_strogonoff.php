@@ -6,17 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Strogonoff de Cogumelos</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="/projectFinal/tela_strogonoff/prato_strogonoff.css">
+    <link rel="stylesheet" href="projectFinal/tela_strogonoff/prato_strogonoff.css">
 </head>
 
 
 <body>
     <div class="container">
-        <a href="/project.php">&lt;</a>
+        <a href="project.php">&lt;</a>
         <h2>Strogonoff de Cogumelos</h2>
 
 
-        <img class="dish-image" src="/imagens/strogonoff_cogumelos.png" alt="Strogonoff de Cogumelos">
+        
+
+        <img class="dish-image" src="imagens/strogonoff_cogumelos.png" alt="Strogonoff de Cogumelos">
 
         <p>
             Cogumelos frescos salteados com cebola e alho, envolvidos em um molho cremoso à base de creme vegetal,
@@ -40,19 +42,19 @@
     <div class="nav">
 
         <div class="active">
-            <a href="/projectFinal/tela_cardapio/cardapio.html">
+            <a href="projectFinal/tela_cardapio/cardapio.html">
                 <i class="fas fa-utensils"></i><br>Cardápio
             </a>
         </div>
 
         <div>
-            <a href="/projectFinal/tela_ofertas/oferta.html">
+            <a href="projectFinal/tela_ofertas/oferta.html">
                 <i class="fas fa-star"></i><br>Ofertas
             </a>
         </div>
 
         <div>
-            <a href="/projectFinal/tela_perfil/perfil.html">
+            <a href="projectFinal/tela_perfil/perfil.html">
                 <i class="fas fa-user"></i><br>Perfil
             </a>
         </div>

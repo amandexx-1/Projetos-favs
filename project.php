@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tela Principal</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="/css/project.css">
+    <link rel="stylesheet" href="css/project.css">
 </head>
 
 
@@ -22,19 +22,19 @@
 
         <div class="carousel-container">
             <div class="carousel-slide fade">
-                <img src="/imagens/prato_do_dia.png" alt="Prato 1">
+                <img src="imagens/prato_do_dia.png" alt="Prato 1">
             </div>
             <div class="carousel-slide fade">
-                <img src="/imagens/prato_do_dia.png" alt="Prato 2">
+                <img src="imagens/prato_do_dia.png" alt="Prato 2">
             </div>
             <div class="carousel-slide fade">
-                <img src="/imagens/prato_do_dia.png" alt="Prato 3">
+                <img src="imagens/prato_do_dia.png" alt="Prato 3">
             </div>
         </div>
 
 
         <div class="item">
-            <a href="/projectFinal/tela_strogonoff/prato_strogonoff.php">
+            <a href="projectFinal/tela_strogonoff/prato_strogonoff.php">
                 <img src="imagens/strogonoff_cogumelos.png" alt="Strogonoff">
             </a>
             <div class="item-name">Strogonoff de Cogumelos<br>R$ 40.90</div>
@@ -43,8 +43,8 @@
 
 
         <div class="item">
-            <a href="/projectFinal/tela_salada/prato_salada.html">
-                <img src="/imagens/salada.png" alt="Salada Colorida">
+            <a href="projectFinal/tela_salada/prato_salada.html">
+                <img src="imagens/salada.png" alt="Salada Colorida">
             </a>
             <div class="item-name">Salada Colorida<br>R$ 30.90</div>
             <button onclick="addToCart(this)">Adicionar</button>
@@ -53,34 +53,34 @@
 
 
         <div class="item">
-            <a href="/projectFinal/tela_risoto/prato_risoto.html">
-                <img src="/imagens/risoto_de_legumes.png" alt="Risoto">
+            <a href="projectFinal/tela_risoto/prato_risoto.html">
+                <img src="imagens/risoto_de_legumes.png" alt="Risoto">
             </a>
             <div class="item-name">Risoto de Legumes<br>R$ 35.90</div>
             <button onclick="addToCart(this)">Adicionar</button>
         </div>
 
 
-        <a href="/projectFinal/tela_carrinho/carrinho.html" class="botao">Ver carrinho</a>
+        <a href="projectFinal/tela_carrinho/carrinho.html" class="botao">Ver carrinho</a>
 
     </div>
 
     <div class="nav">
 
         <div class="active">
-            <a href="/projectFinal/tela_cardapio/cardapio.html">
+            <a href="projectFinal/tela_cardapio/cardapio.html">
                 <i class="fas fa-utensils"></i><br>Cardápio
             </a>
         </div>
 
         <div>
-            <a href="/projectFinal/tela_ofertas/oferta.html">
+            <a href="projectFinal/tela_ofertas/oferta.html">
                 <i class="fas fa-star"></i><br>Ofertas
             </a>
         </div>
 
         <div>
-            <a href="/projectFinal/tela_perfil/perfil.html">
+            <a href="projectFinal/tela_perfil/perfil.html">
                 <i class="fas fa-user"></i><br>Perfil
             </a>
         </div>
