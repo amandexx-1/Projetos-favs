@@ -34,6 +34,34 @@ h2 {
     margin-bottom: 10px;
 }
 
+.carousel-container {
+  position: relative;
+  max-width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+.carousel-slide {
+  display: none;
+}
+
+.carousel-slide img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@keyframes fade {
+  from { opacity: .4; }
+  to { opacity: 1; }
+}
+
 .dish-image {
     width: 100%;
     border-radius: 10px;

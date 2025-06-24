@@ -12,7 +12,7 @@
 
 <body>
     <div class="container">
-        <a href="/project.html">&lt;</a>
+        <a href="/project.php">&lt;</a>
         <h2>Strogonoff de Cogumelos</h2>
 
 
