@@ -17,16 +17,18 @@
             <input type="text" placeholder="Buscar pratos" />
 
         </div>
-        
+
         <div class="container">
 
             <p class="data"><?php echo date("d.m.Y"); ?></p>
             <h2>MENU DO DIA</h2>
 
-            <div class="preco">
+            <div class="descricao">
                 <span class="destaque">Entrada + Prato Principal + Sobremesa</span>
             </div>
+
         </div>
+
 
         <div class="carousel-container">
 
@@ -74,6 +76,7 @@
 
     </div>
 
+
     <div class="nav">
 
         <div class="active">
@@ -82,11 +85,13 @@
             </a>
         </div>
 
+
         <div>
             <a href="projectFinal/tela_ofertas/oferta.php">
                 <i class="fas fa-star"></i><br>Ofertas
             </a>
         </div>
+
 
         <div>
             <a href="projectFinal/tela_perfil/perfil.php">
@@ -163,6 +168,5 @@
         }
     </script>
 </body>
-
 
 </html>
