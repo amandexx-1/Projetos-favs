@@ -16,7 +16,7 @@
         <h2>Strogonoff de Cogumelos</h2>
 
 
-        
+
 
         <img class="dish-image" src="imagens/strogonoff_cogumelos.png" alt="Strogonoff de Cogumelos">
 
@@ -42,19 +42,19 @@
     <div class="nav">
 
         <div class="active">
-            <a href="projectFinal/tela_cardapio/cardapio.html">
+            <a href="projectFinal/tela_cardapio/cardapio.php">
                 <i class="fas fa-utensils"></i><br>Cardápio
             </a>
         </div>
 
         <div>
-            <a href="projectFinal/tela_ofertas/oferta.html">
+            <a href="projectFinal/tela_ofertas/oferta.php">
                 <i class="fas fa-star"></i><br>Ofertas
             </a>
         </div>
 
         <div>
-            <a href="projectFinal/tela_perfil/perfil.html">
+            <a href="projectFinal/tela_perfil/perfil.php">
                 <i class="fas fa-user"></i><br>Perfil
             </a>
         </div>

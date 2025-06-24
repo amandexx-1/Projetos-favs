@@ -4,25 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Caponata Siciliana</title>
+    <title>Caldo de Legumes Assados</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="/projectFinal/tela_salada/prato_salada.css">
+    <link rel="stylesheet" href="projectFinal/tela_salada/prato_salada.css">
 </head>
 
 
 <body>
     <div class="container">
-        <a href="/project.html">&lt;</a>
-        <h2>Caponata Siciliana</h2>
+        <a href="project.php">&lt;</a>
+        <h2>Caldo de Legumes Assados</h2>
 
 
-        <img class="dish-image" src="/imagens/caponata.png" alt="Caponata">
+        <img class="dish-image" src="imagens/sopa.png" alt="Caldo">
 
         <p>
-            Refogado agridoce com cubos de berinjela salteados
-             e pimentões, alcaparras, pimentões coloridos,
-             azeitonas e alcaparras ao molho de tomate e toque de vinagre,
-             servido frio com torradas integrais ou pão artesanal.
+            Um caldo aromático, preparado com legumes
+            frescos da estação: cenoura, batata, ervilha verde e toques sutis de ervas finas. Cozido lentamente para
+            extrair o máximo sabor e textura, este prato celebra
+            a simplicidade da cozinha vegetal.
         </p>
 
 
@@ -46,19 +46,19 @@
     <div class="nav">
 
         <div class="active">
-            <a href="/projectFinal/tela_cardapio/cardapio.html">
+            <a href="projectFinal/tela_cardapio/cardapio.php">
                 <i class="fas fa-utensils"></i><br>Cardápio
             </a>
         </div>
 
         <div>
-            <a href="/projectFinal/tela_ofertas/oferta.html">
+            <a href="projectFinal/tela_ofertas/oferta.php">
                 <i class="fas fa-star"></i><br>Ofertas
             </a>
         </div>
 
         <div>
-            <a href="/projectFinal/tela_perfil/perfil.html">
+            <a href="projectFinal/tela_perfil/perfil.php">
                 <i class="fas fa-user"></i><br>Perfil
             </a>
         </div>

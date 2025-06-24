@@ -6,17 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Berinjela Grelhada com Molho Chimichurri</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="/projectFinal/tela_berinjela/prato_berinjela.css">
+    <link rel="stylesheet" href="projectFinal/tela_berinjela/prato_berinjela.css">
 </head>
 
 
 <body>
     <div class="container">
-        <a href="/project.html">&lt;</a>
+        <a href="project.php">&lt;</a>
         <h2>Berinjela Grelhada com Molho Chimichurri</h2>
 
 
-        <img class="dish-image" src="/imagens/berinjela.png" alt="Berinjela">
+        <img class="dish-image" src="imagens/berinjela.png" alt="Berinjela">
 
         <p>
             Fatias generosas de berinjela grelhada na chapa com azeite
@@ -42,19 +42,19 @@
     <div class="nav">
 
         <div class="active">
-            <a href="/projectFinal/tela_cardapio/cardapio.html">
+            <a href="projectFinal/tela_cardapio/cardapio.php">
                 <i class="fas fa-utensils"></i><br>Cardápio
             </a>
         </div>
 
         <div>
-            <a href="/projectFinal/tela_ofertas/oferta.html">
+            <a href="projectFinal/tela_ofertas/oferta.php">
                 <i class="fas fa-star"></i><br>Ofertas
             </a>
         </div>
 
         <div>
-            <a href="/projectFinal/tela_perfil/perfil.html">
+            <a href="projectFinal/tela_perfil/perfil.php">
                 <i class="fas fa-user"></i><br>Perfil
             </a>
         </div>
