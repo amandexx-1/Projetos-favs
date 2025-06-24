@@ -14,17 +14,15 @@
     <div class="container">
         <div class="search-box">
             <i class="fas fa-search"></i>
-            <input type="text" placeholder="Buscar pratos" />
-        </div>
-        
-        <div class="container">
+            <input type="text" placeholder="Buscar pratos">
+
             <p class="data"><?php echo date("d.m.Y"); ?></p>
             <h2>MENU DO DIA</h2>
+
             <div class="preco">
                 <span class="destaque">Entrada + Prato Principal + Sobremesa</span>
-                <span class="valor">Por R$89,00</span>
             </div>
-
+        </div>
 
             <div class="carousel-container">
 
