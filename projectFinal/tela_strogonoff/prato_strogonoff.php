@@ -18,6 +18,8 @@
 
 
 
+        
+
         <img class="dish-image" src="imagens/strogonoff_cogumelos.png" alt="Strogonoff de Cogumelos">
 
         <p>
