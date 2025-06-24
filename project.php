@@ -17,10 +17,12 @@
             <input type="text" placeholder="Buscar pratos" />
         </div>
 
-        <h2>PRATO DO DIA</h2>
+        <h2>MENU DO DIA</h2>
 
 
         <div class="carousel-container">
+            <p> Entrada + Prato principal + Sobremesa </p>
+            
             <div class="carousel-slide fade">
                 <img src="imagens/prato_do_dia.png" alt="Prato1 Salada">
             </div>
