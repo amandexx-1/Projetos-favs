@@ -20,8 +20,8 @@
 
 
         <div class="item">
-            <a href="projectFinal/tela_strogonoff/prato_strogonoff.php">
-                <img src="imagens/strogonoff_cogumelos.png" alt="Strogonoff">
+            <a href="/projectFinal/tela_strogonoff/prato_strogonoff.php">
+                <img src="/imagens/strogonoff_cogumelos.png" alt="Strogonoff">
             </a>
             <div class="item-name">Strogonoff de Cogumelos<br>R$ 40.90</div>
             <button onclick="addToCart(this)">Adicionar</button>
