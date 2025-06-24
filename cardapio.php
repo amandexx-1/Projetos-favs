@@ -11,6 +11,7 @@
 
 <body>
     <div class="container">
+        <a href="project.php">&lt;</a>
         <div class="search-box">
             <i class="fas fa-search"></i>
             <input type="text" placeholder="Buscar pratos" />
@@ -76,7 +77,7 @@
             <a href="prato_bruscheta.php">
                 <img src="imagens/bruscheta.png" alt="Bruscheta">
             </a>
-            <div class="item-name">Torta de Palmito<br>R$ 25.90</div>
+            <div class="item-name">Bruscheta<br>R$ 25.90</div>
             <button onclick="addToCart(this)">Adicionar</button>
         </div>
 
