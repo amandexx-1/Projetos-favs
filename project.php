@@ -22,13 +22,13 @@
 
         <div class="carousel-container">
             <div class="carousel-slide fade">
-                <img src="imagens/prato_do_dia.png" alt="Prato 1">
+                <img src="imagens/prato_do_dia.png" alt="Prato1 Salada">
             </div>
             <div class="carousel-slide fade">
-                <img src="imagens/abobora.png" alt="Prato 2">
+                <img src="imagens/abobora.png" alt="Prato2 Abobora Grelhada">
             </div>
             <div class="carousel-slide fade">
-                <img src="imagens/mouse.png" alt="Prato 3">
+                <img src="imagens/mouse.png" alt="Prato3 Mouse de Maracujá">
             </div>
         </div>
 
@@ -154,5 +154,6 @@
     }
     </script>
 </body>
+
 
 </html>

@@ -6,21 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Strogonoff de Cogumelos</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="css/prato_strogonoff.css">
+    <link rel="stylesheet" href="Projetos/css/prato_strogonoff.css">
 </head>
 
 
 <body>
     <div class="container">
-        <a href="Projetos/project.php">&lt;</a>
+        <a href="project.php">&lt;</a>
         <h2>Strogonoff de Cogumelos</h2>
 
 
 
-
-        
-
-        <img class="dish-image" src="imagens/strogonoff_cogumelos.png" alt="Strogonoff de Cogumelos">
+        <img class="dish-image" src="/imagens/strogonoff_cogumelos.png" alt="Strogonoff de Cogumelos">
 
         <p>
             Cogumelos frescos salteados com cebola e alho, envolvidos em um molho cremoso à base de creme vegetal,
