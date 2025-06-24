@@ -14,7 +14,7 @@
     <div class="container">
         <div class="search-box">
             <i class="fas fa-search"></i>
-            <input type="text" placeholder="Buscar pratos">
+            <input type="text" placeholder="Buscar pratos"/>
 
             <p class="data"><?php echo date("d.m.Y"); ?></p>
             <h2>MENU DO DIA</h2>
