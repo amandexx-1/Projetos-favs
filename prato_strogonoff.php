@@ -41,19 +41,19 @@
     <div class="nav">
 
         <div class="active">
-            <a href="projectFinal/tela_cardapio/cardapio.php">
+            <a href="cardapio.php">
                 <i class="fas fa-utensils"></i><br>Cardápio
             </a>
         </div>
 
         <div>
-            <a href="projectFinal/tela_ofertas/oferta.php">
+            <a href="oferta.php">
                 <i class="fas fa-star"></i><br>Ofertas
             </a>
         </div>
 
         <div>
-            <a href="projectFinal/tela_perfil/perfil.php">
+            <a href="perfil.php">
                 <i class="fas fa-user"></i><br>Perfil
             </a>
         </div>

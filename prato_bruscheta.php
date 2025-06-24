@@ -4,36 +4,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Salada Colorida</title>
+    <title>Bruscheta</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="css/prato_salada.css">
+    <link rel="stylesheet" href="css/prato_bruscheta.css">
 </head>
 
 
 <body>
     <div class="container">
         <a href="project.php">&lt;</a>
-        <h2>Salada Colorida</h2>
+        <h2>Bruscheta</h2>
 
 
-        <img class="dish-image" src="imagens/salada.png" alt="Salada">
+        <img class="dish-image" src="imagens/bruscheta.png" alt="Bruscheta">
 
         <p>
-            Folhas nobres selecionadas, acompanhadas de pepino crocante em cubos, lâminas finas de rabanete e cenoura,
-            finalizadas com suculentos tomatinhos cereja. Uma composição harmoniosa de cores, texturas e frescor,
-            perfeita para despertar os sentidos e valorizar os sabores naturais dos ingredientes.
-            Acompanhada de um fio de azeite extravirgem e flor de sal, sob solicitação.
+            Fatias crocantes de pão artesanal levemente tostado,
+             cobertas com uma seleção fresca de tomates cereja, manjericão orgânico,
+              alho dourado e um toque de azeite extravirgem. Uma entrada clássica italiana, 
+            ideal para abrir a refeição com sabor e leveza.
         </p>
 
 
         <p>
             Porção: Serve 1 pessoa<br>
-            Opções de carboidratos e proteínas disponíveis
+            Opções disponíveis:<br>
         </p>
 
+        <p>
+            Pão integral ou sem glúten<br>
+            Torradas<br>
+            
+        </p>
 
         <button>Adicionar</button>
-        <span class="price">R$ 30,90</span>
+        <span class="price">R$ 25,90</span>
     </div>
 
 
@@ -59,6 +64,5 @@
         </div>
 
     </div>
+    
 </body>
-
-</html>

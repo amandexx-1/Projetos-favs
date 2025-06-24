@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrinho</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="projectFinal/tela_carrinho/carrinho.css">
+    <link rel="stylesheet" href="css/carrinho.css">
 </head>
 
 
@@ -24,17 +24,17 @@
 
     <div class="nav">
         <div>
-            <a href="projectFinal/tela_cardapio/cardapio.php">
+            <a href="cardapio.php">
                 <i class="fas fa-utensils"></i><br>Cardápio
             </a>
         </div>
         <div class="active">
-            <a href="projectFinal/tela_ofertas/oferta.php">
+            <a href="oferta.php">
                 <i class="fas fa-star"></i><br>Ofertas
             </a>
         </div>
         <div>
-            <a href="projectFinal/tela_perfil/perfil.php">
+            <a href="perfil.php">
                 <i class="fas fa-user"></i><br>Perfil
             </a>
         </div>

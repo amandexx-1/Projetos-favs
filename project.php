@@ -54,7 +54,7 @@
 
 
         <div class="item">
-            <a href="projectFinal/tela_salada/prato_salada.php">
+            <a href="prato_salada.php">
                 <img src="imagens/salada.png" alt="Salada Colorida">
             </a>
             <div class="item-name">Salada Colorida<br>R$ 30.90</div>
@@ -64,7 +64,7 @@
 
 
         <div class="item">
-            <a href="projectFinal/tela_risoto/prato_risoto.php">
+            <a href="prato_risoto.php">
                 <img src="imagens/risoto_de_legumes.png" alt="Risoto">
             </a>
             <div class="item-name">Risoto de Legumes<br>R$ 35.90</div>
@@ -72,7 +72,7 @@
         </div>
 
 
-        <a href="projectFinal/tela_carrinho/carrinho.php" class="botao">Ver carrinho</a>
+        <a href="carrinho.php" class="botao">Ver carrinho</a>
 
     </div>
 
@@ -80,21 +80,21 @@
     <div class="nav">
 
         <div class="active">
-            <a href="projectFinal/tela_cardapio/cardapio.php">
+            <a href="cardapio.php">
                 <i class="fas fa-utensils"></i><br>Cardápio
             </a>
         </div>
 
 
         <div>
-            <a href="projectFinal/tela_ofertas/oferta.php">
+            <a href="oferta.php">
                 <i class="fas fa-star"></i><br>Ofertas
             </a>
         </div>
 
 
         <div>
-            <a href="projectFinal/tela_perfil/perfil.php">
+            <a href="perfil.php">
                 <i class="fas fa-user"></i><br>Perfil
             </a>
         </div>
