@@ -123,3 +123,8 @@ h2 {
 .nav div.active {
     color: #000;
 }
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

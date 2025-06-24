@@ -21,7 +21,7 @@
             <input type="text" placeholder="Buscar pratos" />
         </div>
 
-        <h2>Ofertas do Dia</h2>
+        <h2>Ofertas</h2>
         <img class="dish-image" src="imagens/prato_do_dia.png" alt="ofertas">
 
 
