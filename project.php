@@ -16,59 +16,61 @@
             <i class="fas fa-search"></i>
             <input type="text" placeholder="Buscar pratos" />
 
+        </div>
+        
+        <div class="container">
+
             <p class="data"><?php echo date("d.m.Y"); ?></p>
             <h2>MENU DO DIA</h2>
 
             <div class="preco">
                 <span class="destaque">Entrada + Prato Principal + Sobremesa</span>
             </div>
-
         </div>
-    </div>
 
-    <div class="carousel-container">
+        <div class="carousel-container">
 
-        <div class="carousel-slide fade">
-            <img src="imagens/prato_do_dia.png" alt="Prato1 Salada">
+            <div class="carousel-slide fade">
+                <img src="imagens/prato_do_dia.png" alt="Prato1 Salada">
+            </div>
+            <div class="carousel-slide fade">
+                <img src="imagens/abobora.png" alt="Prato2 Abobora Grelhada">
+            </div>
+            <div class="carousel-slide fade">
+                <img src="imagens/mouse.png" alt="Prato3 Mouse de Maracujá">
+            </div>
         </div>
-        <div class="carousel-slide fade">
-            <img src="imagens/abobora.png" alt="Prato2 Abobora Grelhada">
+
+
+        <div class="item">
+            <a href="projectFinal/tela_strogonoff/prato_strogonoff.php">
+                <img src="imagens/strogonoff_cogumelos.png" alt="Strogonoff">
+            </a>
+            <div class="item-name">Strogonoff de Cogumelos<br>R$ 40.90</div>
+            <button onclick="addToCart(this)">Adicionar</button>
         </div>
-        <div class="carousel-slide fade">
-            <img src="imagens/mouse.png" alt="Prato3 Mouse de Maracujá">
+
+
+        <div class="item">
+            <a href="projectFinal/tela_salada/prato_salada.php">
+                <img src="imagens/salada.png" alt="Salada Colorida">
+            </a>
+            <div class="item-name">Salada Colorida<br>R$ 30.90</div>
+            <button onclick="addToCart(this)">Adicionar</button>
         </div>
-    </div>
-
-
-    <div class="item">
-        <a href="projectFinal/tela_strogonoff/prato_strogonoff.php">
-            <img src="imagens/strogonoff_cogumelos.png" alt="Strogonoff">
-        </a>
-        <div class="item-name">Strogonoff de Cogumelos<br>R$ 40.90</div>
-        <button onclick="addToCart(this)">Adicionar</button>
-    </div>
-
-
-    <div class="item">
-        <a href="projectFinal/tela_salada/prato_salada.php">
-            <img src="imagens/salada.png" alt="Salada Colorida">
-        </a>
-        <div class="item-name">Salada Colorida<br>R$ 30.90</div>
-        <button onclick="addToCart(this)">Adicionar</button>
-    </div>
 
 
 
-    <div class="item">
-        <a href="projectFinal/tela_risoto/prato_risoto.php">
-            <img src="imagens/risoto_de_legumes.png" alt="Risoto">
-        </a>
-        <div class="item-name">Risoto de Legumes<br>R$ 35.90</div>
-        <button onclick="addToCart(this)">Adicionar</button>
-    </div>
+        <div class="item">
+            <a href="projectFinal/tela_risoto/prato_risoto.php">
+                <img src="imagens/risoto_de_legumes.png" alt="Risoto">
+            </a>
+            <div class="item-name">Risoto de Legumes<br>R$ 35.90</div>
+            <button onclick="addToCart(this)">Adicionar</button>
+        </div>
 
 
-    <a href="projectFinal/tela_carrinho/carrinho.php" class="botao">Ver carrinho</a>
+        <a href="projectFinal/tela_carrinho/carrinho.php" class="botao">Ver carrinho</a>
 
     </div>
 
