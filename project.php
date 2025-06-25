@@ -61,12 +61,12 @@
             </div>
         </a>
 
-        <a href="prato_risoto.php">
+        <a href="prato_mouse.php">
             <div class="item">
 
-                <img src="imagens/risoto_de_legumes.png" alt="Risoto">
+                <img src="imagens/mouse.m.png" alt="Mouse de Maracujá">
 
-                <div class="item-name">Risoto de Legumes<br>R$ 35.90</div>
+                <div class="item-name">Mouse de Maracujá<br>R$ 25.90</div>
                 <button onclick="addToCart(this)">Adicionar</button>
             </div>
         </a>

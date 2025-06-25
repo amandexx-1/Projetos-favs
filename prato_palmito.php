@@ -35,7 +35,7 @@
 
 
         <button>Adicionar</button>
-        <span class="price">R$ 30,90</span>
+        <span class="price">R$ 125,90</span>
     </div>
 
 

@@ -107,6 +107,16 @@
             </div>
         </a>
 
+         <a href="prato_mouse.php">
+            <div class="item" data-category="sobremesas">
+
+                <img src="imagens/mouse.m.png" alt="Mouse de Maracujá">
+
+                <div class="item-name">Mouse de Maracujá<br>R$ 25.90</div>
+                <button onclick="addToCart(this)">Adicionar</button>
+            </div>
+        </a>
+
         <a href="prato_lasanha_berinjela.php">
             <div class="item" data-category="ovolactovegetariano">
 
@@ -152,7 +162,7 @@
 
                 <img src="imagens/torta_p.png" alt="Torta">
 
-                <div class="item-name">Torta de Palmito<br>R$ 35.90</div>
+                <div class="item-name">Torta de Palmito<br>R$ 125.90</div>
                 <button onclick="addToCart(this)">Adicionar</button>
             </div>
         </a>

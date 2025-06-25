@@ -16,24 +16,26 @@
         <h2>Mouse de Maracujá</h2>
 
 
-        <img class="dish-image" src="imagens/salada.png" alt="Salada">
+        <img class="dish-image" src="imagens/mouse.m.png" alt="Mouse">
 
         <p>
-            Folhas nobres selecionadas, acompanhadas de pepino crocante em cubos, lâminas finas de rabanete e cenoura,
-            finalizadas com suculentos tomatinhos cereja. Uma composição harmoniosa de cores, texturas e frescor,
-            perfeita para despertar os sentidos e valorizar os sabores naturais dos ingredientes.
-            Acompanhada de um fio de azeite extravirgem e flor de sal, sob solicitação.
+            Uma sobremesa refinada e delicadamente tropical.
+             Elaborado com leite vegetal e polpa fresca de maracujá, 
+             este mousse apresenta textura leve e aveludada, 
+             combinando suavemente a doçura natural com notas cítricas marcantes.
+              Finalizado com um toque das sementes da fruta, proporciona frescor e elegância a cada colherada.
+              
         </p>
 
 
         <p>
             Porção: Serve 1 pessoa<br>
-            Opções de carboidratos e proteínas disponíveis
+            Sem glúten.
         </p>
 
 
         <button>Adicionar</button>
-        <span class="price">R$ 30,90</span>
+        <span class="price">R$ 25,90</span>
     </div>
 
 
