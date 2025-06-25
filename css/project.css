@@ -48,21 +48,22 @@ h2 {
 
 
 .carousel-container {
-    width: 100%;
-    overflow: hidden;
-    border-radius: 12px;
     position: relative;
+    max-width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 0 auto;
 }
 
 .carousel-track {
     display: flex;
     transition: transform 0.5s ease-in-out;
-    width: 300%;
+    width: 100%;
     /* 100% * número de slides */
 }
 
 .carousel-slide {
-    flex: 0 0 100%;
+    display: none;
 }
 
 .carousel-slide img {
