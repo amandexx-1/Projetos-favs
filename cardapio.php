@@ -67,6 +67,16 @@
             </div>
         </a>
 
+        <a href="prato_tartetatin.php"data-category="sobremesas">
+            <div class="item" data-category="ovolactovegetariano">
+
+                <img src="imagens/tartetatin.png" alt="Tarte Tatin">
+
+                <div class="item-name">Tarte Tatin de Maçã<br>R$ 109.90</div>
+                <button onclick="addToCart(this)">Adicionar</button>
+            </div>
+        </a>
+
         <a href="prato_salada.php">
             <div class="item" data-category="vegano">
 
