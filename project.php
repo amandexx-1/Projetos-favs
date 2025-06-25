@@ -35,9 +35,11 @@
                 <div class="carousel-slide">
                     <img src="imagens/abobora.png" alt="Prato2 Abóbora Grelhada">
                 </div>
-                <div class="carousel-slide">
-                    <img src="imagens/mouse.png" alt="Prato3 Mousse de Maracujá" href="prato_mouse.php">
-                </div>
+                <a href="prato_mouse.php">
+                    <div class="carousel-slide">
+                        <img src="imagens/mouse.png" alt="Prato3 Mousse de Maracujá">
+                    </div>
+                </a>
             </div>
         </div>
 
