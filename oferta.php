@@ -24,34 +24,35 @@
         <h2>Ofertas</h2>
         <img class="dish-image" src="imagens/prato_do_dia.png" alt="ofertas">
 
+        <a href="prato_macarrão.php">
+            <div class="item">
 
-        <div class="item">
-            <a href="prato_macarrão.php">
                 <img src="imagens/massa.png" alt="massa">
-            </a>
-            <div class="item-name">Macarrão Temperado<br>R$ 40.90</div>
-            <button onclick="addToCart(this)">Adicionar</button>
-        </div>
 
+                <div class="item-name">Macarrão Temperado<br>R$ 40.90</div>
+                <button onclick="addToCart(this)">Adicionar</button>
+            </div>
+        </a>
 
-        <div class="item">
-            <a href="prato_caldo.php">
+        <a href="prato_caldo.php">
+            <div class="item">
+
                 <img src="imagens/sopa.png" alt="sopa">
-            </a>
-            <div class="item-name">Caldo de Legumes Assados<br>R$ 30.90</div>
-            <button onclick="addToCart(this)">Adicionar</button>
-        </div>
 
+                <div class="item-name">Caldo de Legumes Assados<br>R$ 30.90</div>
+                <button onclick="addToCart(this)">Adicionar</button>
+            </div>
+        </a>
 
-
-        <div class="item">
-            <a href="prato_palmito.php">
-                <img src="imagens/torta_p.png" alt="torta palmito">
-            </a>
-            <div class="item-name">Torta de Palmito<br>R$ 35.90</div>
-            <button onclick="addToCart(this)">Adicionar</button>
-        </div>
-
+        <a href="prato_palmito.php">
+            <div class="item">
+                <a href="prato_palmito.php">
+                    <img src="imagens/torta_p.png" alt="torta palmito">
+                </a>
+                <div class="item-name">Torta de Palmito<br>R$ 35.90</div>
+                <button onclick="addToCart(this)">Adicionar</button>
+            </div>
+        </a>
 
         <a href="carrinho.php" class="botao">Ver carrinho</a>
 

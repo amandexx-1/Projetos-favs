@@ -18,16 +18,15 @@
         </div>
 
         <div class="category-buttons">
-            <button data-category="ovolactovegetariano">o</button>
+            <button data-category="ovolactovegetariano">Ovolactovegetariano</button>
             <button data-category="lactovegetariano">Lactovegetariano</button>
             <button data-category="vegetariano">Vegetariano</button>
             <button data-category="vegano">Vegano</button>
             <button data-category="sobremesas">Sobremesas</button>
         </div>
 
-        <h2>Pratosssssssssssssssss</h2>
-        <h1>teste</h1>
-        
+        <h2>Pratos</h2>
+
         <a href="prato_strogonoff.php">
             <div class="item" data-category="ovolactovegetariano">
 
@@ -38,85 +37,95 @@
             </div>
         </a>
 
+        <a href="prato_caldo.php">
+            <div class="item" data-category="vegano">
 
-        <div class="item" data-category="vegano">
-            <a href="prato_caldo.php">
                 <img src="imagens/sopa.png" alt="sopa">
-            </a>
-            <div class="item-name">Caldo de Legumes Assados<br>R$ 35.90</div>
-            <button onclick="addToCart(this)">Adicionar</button>
-        </div>
 
+                <div class="item-name">Caldo de Legumes Assados<br>R$ 35.90</div>
+                <button onclick="addToCart(this)">Adicionar</button>
+            </div>
+        </a>
 
-        <div class="item" data-category="vegetariano">
-            <a href="prato_berinjela.php">
+        <a href="prato_berinjela.php">
+            <div class="item" data-category="vegetariano">
+
                 <img src="imagens/berinjela.png" alt="Berinjela">
-            </a>
-            <div class="item-name">Berinjela Grelhada com Molho Chimichurri<br>R$ 49.90</div>
-            <button onclick="addToCart(this)">Adicionar</button>
-        </div>
 
+                <div class="item-name">Berinjela Grelhada com Molho Chimichurri<br>R$ 49.90</div>
+                <button onclick="addToCart(this)">Adicionar</button>
+            </div>
+        </a>
 
-        <div class="item" data-category="vegetariano">
-            <a href="prato_caponata.php">
+        <a href="prato_caponata.php">
+            <div class="item" data-category="vegetariano">
+
                 <img src="imagens/caponata.png" alt="Caponata">
-            </a>
-            <div class="item-name">Caponata Siciliana<br>R$ 45.90</div>
-            <button onclick="addToCart(this)">Adicionar</button>
-        </div>
 
+                <div class="item-name">Caponata Siciliana<br>R$ 45.90</div>
+                <button onclick="addToCart(this)">Adicionar</button>
+            </div>
+        </a>
 
-        <div class="item" data-category="vegano">
-            <a href="prato_salada.php">
+        <a href="prato_salada.php">
+            <div class="item" data-category="vegano">
+
                 <img src="imagens/salada.png" alt="Salada Colorida">
-            </a>
-            <div class="item-name">Salada Colorida<br>R$ 30.90</div>
-            <button onclick="addToCart(this)">Adicionar</button>
-        </div>
 
+                <div class="item-name">Salada Colorida<br>R$ 30.90</div>
+                <button onclick="addToCart(this)">Adicionar</button>
+            </div>
+        </a>
 
-        <div class="item" data-category="ovolactovegetariano">
-            <a href="prato_lasanha_berinjela.php">
+        <a href="prato_lasanha_berinjela.php">
+            <div class="item" data-category="ovolactovegetariano">
+
                 <img src="imagens/torta_berinjela.png" alt="Lasanha Berinjela">
-            </a>
-            <div class="item-name">Lasanha de Berinjela<br>R$ 50.90</div>
-            <button onclick="addToCart(this)">Adicionar</button>
-        </div>
 
-        <div class="item" data-category="vegetariano">
-            <a href="prato_bruscheta.php">
+                <div class="item-name">Lasanha de Berinjela<br>R$ 50.90</div>
+                <button onclick="addToCart(this)">Adicionar</button>
+            </div>
+        </a>
+
+        <a href="prato_bruscheta.php">
+            <div class="item" data-category="vegetariano">
+
                 <img src="imagens/bruscheta.png" alt="Bruscheta">
-            </a>
-            <div class="item-name">Bruscheta<br>R$ 25.90</div>
-            <button onclick="addToCart(this)">Adicionar</button>
-        </div>
 
+                <div class="item-name">Bruscheta<br>R$ 25.90</div>
+                <button onclick="addToCart(this)">Adicionar</button>
+            </div>
+        </a>
 
-        <div class="item" data-category="lactovegetariano">
-            <a href="prato_risoto.php">
+        <a href="prato_risoto.php">
+            <div class="item" data-category="lactovegetariano">
+
                 <img src="imagens/risoto_de_legumes.png" alt="Risoto">
-            </a>
-            <div class="item-name">Risoto de Legumes<br>R$ 35.90</div>
-            <button onclick="addToCart(this)">Adicionar</button>
-        </div>
 
-        <div class="item" data-category="ovolactovegetariano">
-            <a href="prato_macarrão.php">
+                <div class="item-name">Risoto de Legumes<br>R$ 35.90</div>
+                <button onclick="addToCart(this)">Adicionar</button>
+            </div>
+        </a>
+
+        <a href="prato_macarrão.php">
+            <div class="item" data-category="ovolactovegetariano">
+
                 <img src="imagens/massa.png" alt="Massa">
-            </a>
-            <div class="item-name">Macarrão Temperado<br>R$ 35.90</div>
-            <button onclick="addToCart(this)">Adicionar</button>
-        </div>
 
+                <div class="item-name">Macarrão Temperado<br>R$ 35.90</div>
+                <button onclick="addToCart(this)">Adicionar</button>
+            </div>
+        </a>
 
-        <div class="item" data-category="ovolactovegetariano">
-            <a href="prato_palmito.php">
+        <a href="prato_palmito.php">
+            <div class="item" data-category="ovolactovegetariano">
+
                 <img src="imagens/torta_p.png" alt="Torta">
-            </a>
-            <div class="item-name">Torta de Palmito<br>R$ 35.90</div>
-            <button onclick="addToCart(this)">Adicionar</button>
-        </div>
 
+                <div class="item-name">Torta de Palmito<br>R$ 35.90</div>
+                <button onclick="addToCart(this)">Adicionar</button>
+            </div>
+        </a>
 
 
         <a href="carrinho.php" class="botao">Ver carrinho</a>

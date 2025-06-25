@@ -41,34 +41,35 @@
             </div>
         </div>
 
+        <a href="prato_strogonoff.php">
+            <div class="item" href="prato_strogonoff.php">
 
-        <div class="item" href="prato_strogonoff.php">
-            <a href="prato_strogonoff.php">
                 <img src="imagens/strogonoff_cogumelos.png" alt="Strogonoff">
-            </a>
-            <div class="item-name">Strogonoff de Cogumelos<br>R$ 40.90</div>
-            <button onclick="addToCart(this)">Adicionar</button>
-        </div>
 
+                <div class="item-name">Strogonoff de Cogumelos<br>R$ 40.90</div>
+                <button onclick="addToCart(this)">Adicionar</button>
+            </div>
+        </a>
 
-        <div class="item">
-            <a href="prato_salada.php">
+        <a href="prato_salada.php">
+            <div class="item">
+
                 <img src="imagens/salada.png" alt="Salada Colorida">
-            </a>
-            <div class="item-name">Salada Colorida<br>R$ 30.90</div>
-            <button onclick="addToCart(this)">Adicionar</button>
-        </div>
 
+                <div class="item-name">Salada Colorida<br>R$ 30.90</div>
+                <button onclick="addToCart(this)">Adicionar</button>
+            </div>
+        </a>
 
+        <a href="prato_risoto.php">
+            <div class="item">
 
-        <div class="item">
-            <a href="prato_risoto.php">
                 <img src="imagens/risoto_de_legumes.png" alt="Risoto">
-            </a>
-            <div class="item-name">Risoto de Legumes<br>R$ 35.90</div>
-            <button onclick="addToCart(this)">Adicionar</button>
-        </div>
 
+                <div class="item-name">Risoto de Legumes<br>R$ 35.90</div>
+                <button onclick="addToCart(this)">Adicionar</button>
+            </div>
+        </a>
 
         <a href="carrinho.php" class="botao">Ver carrinho</a>
 
@@ -161,7 +162,7 @@
 
         setInterval(moveSlides, 3000); // troca a cada 3 segundos
     </script>
-    
+
     <script>
         items.forEach(item => {
             // Adiciona ou remove a classe "hidden"
