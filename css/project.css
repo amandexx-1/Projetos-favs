@@ -52,7 +52,7 @@ h2 {
     max-width: 100%;
     border-radius: 12px;
     overflow: hidden;
-    margin: 5px 0 5px 0;
+    margin: 4px 0 6px 0;
 }
 
 .carousel-track {
@@ -100,7 +100,7 @@ h2 {
 .item {
     display: flex;
     align-items: center;
-    margin-bottom: 16px;
+    margin-bottom: 15px;
 }
 
 .item img {
