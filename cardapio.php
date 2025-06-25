@@ -163,7 +163,7 @@
                     if (item.dataset.category === category || category === 'all') {
                         item.style.display = 'block';
                     } else {
-                        item.style.display = 'none';
+                        item.style.display = 'block';
                     }
                 });
             });
