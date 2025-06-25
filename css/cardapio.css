@@ -48,8 +48,8 @@ h2 {
     margin-bottom: 15px;
     border: 1px solid;
     cursor: pointer;
-    border-radius: 10px;
-     transition: background-color 0.3s ease; /* garante que o efeito seja suave*/
+    border-radius: 10px color #fffdfd;
+    transition: background-color 0.4s ease; /* garante que o efeito seja suave*/
 }
 
 /* após passar o cursor no pedido*/
