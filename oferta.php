@@ -22,8 +22,10 @@
         </div>
 
         <h2>Ofertas</h2>
-        <img class="dish-image" src="imagens/prato_do_dia.png" alt="ofertas">
-
+        <a href="prato_salada_fit.php">
+            <img class="dish-image" src="imagens/prato_do_dia.png" alt="ofertas">
+        </a>
+        
         <a href="prato_macarrão.php">
             <div class="item">
 

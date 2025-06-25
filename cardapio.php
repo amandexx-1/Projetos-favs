@@ -158,7 +158,7 @@
         </a>
 
         <a href="prato_abobora.php">
-            <div class="item" data-category="vegetariano">
+            <div class="item" data-category="lactovegetariano">
 
                 <img src="imagens/abobora.grelhada.png" alt="Abobora Grelhada">
 
