@@ -45,17 +45,18 @@ h2 {
 .item {
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 14px;
     border: 0.1px #fffdfd;
     cursor: pointer;
-    border-radius: 10px;
-    transition: background-color 0.2s ease; /* garante que o efeito seja suave*/
+    border-radius: 9px;
+    transition: background-color 0.1s ease; /* garante que o efeito seja suave*/
 }
 
 /* após passar o cursor no pedido*/
 
 .item:hover {
-    background-color: #ebdbaf; /* cor leve de destaque */
+    background-color: #ebdbaf;
+    transition: background-color 0.2s ease; /* cor leve de destaque */
 }
 
 /* config. imagem do prato*/
@@ -79,7 +80,7 @@ h2 {
 }
 
 .item button {
-    padding: 5px 12px;
+    padding: 10px 12px;
     border-radius: 5px;
     border: 1px solid #888;
     background-color: white;
