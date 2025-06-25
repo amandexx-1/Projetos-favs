@@ -39,7 +39,7 @@
                     <img src="imagens/mouse.png" alt="Prato3 Mousse de Maracujá">
                 </div>
             </div>
-        </div> 
+        </div>
 
 
         <div class="item" href="prato_strogonoff.php">
@@ -160,6 +160,17 @@
         }
 
         setInterval(moveSlides, 3000); // troca a cada 3 segundos
+    </script>
+    
+    <script>
+        items.forEach(item => {
+            // Adiciona ou remove a classe "hidden"
+            if (item.dataset.category === category || category === 'all') {
+                item.classList.remove('hidden');
+            } else {
+                item.classList.add('hidden');
+            }
+        });
     </script>
 </body>
 

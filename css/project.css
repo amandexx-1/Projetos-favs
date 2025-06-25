@@ -104,6 +104,10 @@ h2 {
     background-color: #ebdbaf;  
 }
 
+.item.hidden {
+    display: none !important;
+}
+
 .item-name {
     flex: 1;
 }
