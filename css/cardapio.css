@@ -45,8 +45,9 @@ h2 {
 .item {
     display: flex;
     align-items: center;
-    margin-bottom: 17px 6;
-    border-bottom: 1px solid #ebdbaf;
+    margin-bottom: 17px;
+    border-radius: 1px;
+    border: 1px solid #ebdbaf;
 }
 
 .item img {
