@@ -46,7 +46,7 @@
             </div>
         </div>
 
-        <a href="prato_salada.fit.php">
+        <a href="prato_salada_fit.php">
             <div class="item">
 
                 <img src="imagens/salada.fit.png" alt="Salada Fit">
