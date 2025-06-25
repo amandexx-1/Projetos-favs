@@ -6,10 +6,10 @@ body {
 }
 
 .container {
-
+    max-width: 360px;
+    margin: auto;
+    padding: 20px;
     background: white;
-    margin-bottom: 10px;
-    text-align: left;
 }
 
 .data {
