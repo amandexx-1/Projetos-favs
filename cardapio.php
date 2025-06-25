@@ -157,6 +157,16 @@
             </div>
         </a>
 
+        <a href="prato_abobora.php">
+            <div class="item" data-category="vegetariano">
+
+                <img src="imagens/abobora.grelhada.png" alt="Abobora Grelhada">
+
+                <div class="item-name">Abóbora Grelhada<br>R$ 49.90</div>
+                <button onclick="addToCart(this)">Adicionar</button>
+            </div>
+        </a>
+
         <a href="prato_macarrão.php">
             <div class="item" data-category="ovolactovegetariano">
 

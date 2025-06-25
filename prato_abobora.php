@@ -13,27 +13,28 @@
 <body>
     <div class="container">
         <a href="project.php">&lt;</a>
-        <h2>Abobora</h2>
+        <h2>Abóbora Grelhada</h2>
 
 
-        <img class="dish-image" src="imagens/salada.png" alt="Salada">
+        <img class="dish-image" src="imagens/abobora.grelhada.png" alt="Abobora">
 
         <p>
-            Folhas nobres selecionadas, acompanhadas de pepino crocante em cubos, lâminas finas de rabanete e cenoura,
-            finalizadas com suculentos tomatinhos cereja. Uma composição harmoniosa de cores, texturas e frescor,
-            perfeita para despertar os sentidos e valorizar os sabores naturais dos ingredientes.
-            Acompanhada de um fio de azeite extravirgem e flor de sal, sob solicitação.
-        </p>
+            Abóbora Grelhada ao Perfume de Alecrim com duas Emulsões veganas.
+            Fatias de abóbora cuidadosamente grelhadas, com aroma defumado e textura macia,
+            finalizadas com um toque de alecrim fresco e especiarias selecionadas.
+            Servidas com dois molhos cremosos veganos:
+            um de castanhas-de-caju com alho dourado e outro à base de tahine com limão siciliano e cúrcuma.
 
 
         <p>
             Porção: Serve 1 pessoa<br>
-            Opções de carboidratos e proteínas disponíveis
+            Opções de azeite e molhos<br>
+            Sem lactose
         </p>
 
 
         <button>Adicionar</button>
-        <span class="price">R$ 30,90</span>
+        <span class="price">R$ 49,90</span>
     </div>
 
 

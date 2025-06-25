@@ -29,11 +29,17 @@
 
         <div class="carousel-container">
             <div class="carousel-track">
+
                 <div class="carousel-slide">
-                    <img src="imagens/prato_do_dia.png" alt="Prato1 Salada">
+                    <a href="prato_salada_fit.php">
+                        <img src="imagens/prato_do_dia.png" alt="Prato1 Salada">
+                    </a>
                 </div>
+
                 <div class="carousel-slide">
-                    <img src="imagens/abobora.png" alt="Prato2 Abóbora Grelhada">
+                    <a href="prato_abobora.php">
+                        <img src="imagens/abobora.png" alt="Prato2 Abóbora Grelhada">
+                    </a>
                 </div>
 
                 <div class="carousel-slide">
@@ -41,7 +47,7 @@
                         <img src="imagens/mouse.png" alt="Prato3 Mousse de Maracujá">
                     </a>
                 </div>
-                
+
 
             </div>
         </div>
@@ -56,12 +62,12 @@
             </div>
         </a>
 
-        <a href="prato_salada.php">
+        <a href="prato_abobora.php">
             <div class="item">
 
-                <img src="imagens/salada.png" alt="Salada Colorida">
+                <img src="imagens/abobora.grelhada.png" alt="Abobora">
 
-                <div class="item-name">Salada Colorida<br>R$ 30.90</div>
+                <div class="item-name">Abóbora Grelhada<br>R$ 49.90</div>
                 <button onclick="addToCart(this)">Adicionar</button>
             </div>
         </a>
