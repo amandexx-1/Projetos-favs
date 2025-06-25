@@ -130,7 +130,7 @@ h2 {
 
 .botao {
     display: block;
-    width: 100%;
+    width: 90%;
     padding: 15px;
     background-color: #68a16b;
     color: white;
@@ -140,7 +140,7 @@ h2 {
     font-size: 16px;
     margin-top: 20px;
     cursor: pointer;
-    text-align: auto;
+    text-align: center;
     text-decoration: none;
 }
 
