@@ -22,22 +22,22 @@
 
             <p class="data"><?php echo date("d.m.Y"); ?></p>
             <h2>MENU DO DIA</h2>
+            <p class="subtitulo">Entrada + Prato Principal + Sobremesa</p>
 
-               <p class="subtitulo">Entrada + Prato Principal + Sobremesa</p>
-            
         </div>
 
 
         <div class="carousel-container">
-
-            <div class="carousel-slide fade">
-                <img src="imagens/prato_do_dia.png" alt="Prato1 Salada">
-            </div>
-            <div class="carousel-slide fade">
-                <img src="imagens/abobora.png" alt="Prato2 Abobora Grelhada">
-            </div>
-            <div class="carousel-slide fade">
-                <img src="imagens/mouse.png" alt="Prato3 Mouse de Maracujá">
+            <div class="carousel-track">
+                <div class="carousel-slide">
+                    <img src="imagens/prato_do_dia.png" alt="Prato1 Salada">
+                </div>
+                <div class="carousel-slide">
+                    <img src="imagens/abobora.png" alt="Prato2 Abóbora Grelhada">
+                </div>
+                <div class="carousel-slide">
+                    <img src="imagens/mouse.png" alt="Prato3 Mousse de Maracujá">
+                </div>
             </div>
         </div>
 
@@ -147,23 +147,19 @@
     </script>
 
     <script>
-        let slideIndex = 0;
-        showSlides();
+        let index = 0;
+        const slides = document.querySelectorAll('.carousel-slide');
+        const track = document.querySelector('.carousel-track');
 
-        function showSlides() {
-            let slides = document.getElementsByClassName("carousel-slide");
-            for (let i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
+        function moveSlides() {
+            index++;
+            if (index >= slides.length) {
+                index = 0;
             }
-
-            slideIndex++;
-            if (slideIndex > slides.length) {
-                slideIndex = 1;
-            }
-
-            slides[slideIndex - 1].style.display = "block";
-            setTimeout(showSlides, 3000); // troca a cada 3 segundos
+            track.style.transform = `translateX(-${index * 100}%)`;
         }
+
+        setInterval(moveSlides, 3000); // troca a cada 3 segundos
     </script>
 </body>
 
