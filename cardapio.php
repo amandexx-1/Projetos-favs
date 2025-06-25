@@ -18,23 +18,25 @@
         </div>
 
         <div class="category-buttons">
-            <button data-category="ovolactovegetariano">Ovolactovegetariano</button>
+            <button data-category="ovolactovegetariano">o</button>
             <button data-category="lactovegetariano">Lactovegetariano</button>
             <button data-category="vegetariano">Vegetariano</button>
             <button data-category="vegano">Vegano</button>
             <button data-category="sobremesas">Sobremesas</button>
         </div>
 
-        <h2>Pratos</h2>
-
+        <h2>Pratosssssssssssssssss</h2>
+        <h1>teste</h1>
+        
         <a href="prato_strogonoff.php">
-        <div class="item" data-category="ovolactovegetariano">
-            
+            <div class="item" data-category="ovolactovegetariano">
+
                 <img src="imagens/strogonoff_cogumelos.png" alt="Strogonoff">
-            
-            <div class="item-name">Strogonoff de Cogumelos<br>R$ 40.90</div>
-            <button onclick="addToCart(this)">Adicionar</button>
-        </div> </a>
+
+                <div class="item-name">Strogonoff de Cogumelos<br>R$ 40.90</div>
+                <button onclick="addToCart(this)">Adicionar</button>
+            </div>
+        </a>
 
 
         <div class="item" data-category="vegano">
