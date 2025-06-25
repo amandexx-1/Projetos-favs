@@ -46,10 +46,10 @@ h2 {
     display: flex;
     align-items: center;
     margin-bottom: 15px;
-    border: 1px solid #fffdfd;
+    border: 1rem solid #fffdfd;
     cursor: pointer;
     border-radius: 10px;
-    transition: background-color 0.10s ease; /* garante que o efeito seja suave*/
+    transition: background-color 0.2s ease; /* garante que o efeito seja suave*/
 }
 
 /* após passar o cursor no pedido*/
