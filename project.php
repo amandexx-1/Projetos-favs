@@ -39,7 +39,7 @@
                     <img src="imagens/mouse.png" alt="Prato3 Mousse de Maracujá">
                 </div>
             </div>
-        </div>
+        </div> 
 
 
         <div class="item">
