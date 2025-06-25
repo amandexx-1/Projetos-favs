@@ -23,10 +23,8 @@
             <p class="data"><?php echo date("d.m.Y"); ?></p>
             <h2>MENU DO DIA</h2>
 
-            <div class="descricao">
-                <span class="destaque">Entrada + Prato Principal + Sobremesa</span>
-            </div>
-
+               <p class="subtitulo">Entrada + Prato Principal + Sobremesa</p>
+            
         </div>
 
 

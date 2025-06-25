@@ -6,19 +6,22 @@ body {
 }
 
 .container {
-    max-width: 360px;
-    margin: 0px;
-    padding: 0px;
+
     background: white;
+    margin-bottom: 10px;
+    text-align: left;
 }
 
 .data {
-    font-size: 14px;
     color: #666;
+    margin: 0;
+    font-size: 13px;
+
 }
 
-.descricao {
-    margin-bottom: 10px;
+.container .subtitulo {
+    margin: 0 0 8px 0;
+    font-size: 14px;
 }
 
 .search-box {
@@ -39,36 +42,41 @@ body {
 }
 
 h2 {
+    margin: 5px 0 5px 0;
     font-size: 18px;
-    margin-bottom: 5px;
 }
 
 .carousel-container {
-  position: relative;
-  max-width: 100%;
-  border-radius: 12px;
-  overflow: hidden;
-  margin: 20px 0;
+    position: relative;
+    max-width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 0 auto;
 }
 
 .carousel-slide {
-  display: none;
+    display: none;
 }
 
 .carousel-slide img {
-  width: 100%;
-  border-radius: 12px;
+    width: 100%;
+    border-radius: 12px;
 }
 
 
 .fade {
-  animation-name: fade;
-  animation-duration: 1s;
+    animation-name: fade;
+    animation-duration: 1s;
 }
 
 @keyframes fade {
-  from { opacity: .4; }
-  to { opacity: 1; }
+    from {
+        opacity: .4;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 .dish-image {
@@ -151,7 +159,8 @@ h2 {
     font-size: 12px;
     color: #333;
 }
-.nav a{
+
+.nav a {
     text-decoration: none;
     color: inherit;
 }
