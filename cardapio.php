@@ -18,17 +18,17 @@
         </div>
 
         <div class="category-buttons">
-            <button>Ovolactovegetariano</button>
-            <button>Lactovegetariano</button>
-            <button>Vegetariano</button>
-            <button>Vegano</button>
-            <button>Sobremesas</button>
+            <button data-category="ovolactovegetariano">Ovolactovegetariano</button>
+            <button data-category="lactovegetariano">Lactovegetariano</button>
+            <button data-category="vegetariano">Vegetariano</button>
+            <button data-category="vegano">Vegano</button>
+            <button data-category="sobremesas">Sobremesas</button>
         </div>
 
         <h2>Pratos</h2>
 
 
-        <div class="item">
+        <div class="item" data-category="vegano">
             <a href="prato_strogonoff.php">
                 <img src="imagens/strogonoff_cogumelos.png" alt="Strogonoff">
             </a>
@@ -150,6 +150,26 @@
             button.disabled = true;
         }
     </script>
+    
+    <script>
+        const buttons = document.querySelectorAll('.category-buttons button');
+        const items = document.querySelectorAll('.item');
+
+        buttons.forEach(button => {
+            button.addEventListener('click', () => {
+                const category = button.dataset.category;
+
+                items.forEach(item => {
+                    if (item.dataset.category === category || category === 'all') {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+
 </body>
 
 </html>
