@@ -58,7 +58,7 @@ h2 {
 .carousel-track {
     display: flex;
     transition: transform 0.5s ease-in-out;
-    width: 100%;
+    width: 300%;
     /* 100% * número de slides */
 }
 
