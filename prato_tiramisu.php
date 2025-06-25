@@ -4,35 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crème Brûlée</title>
+    <title>Tiramisu</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="css/prato_creme.css">
+    <link rel="stylesheet" href="css/prato_salada.css">
 </head>
 
 
 <body>
     <div class="container">
         <a href="project.php">&lt;</a>
-        <h2>Crème Brûlée</h2>
+        <h2>Tiramisu</h2>
 
 
-        <img class="dish-image" src="imagens/creme.png" alt="Creme">
+        <img class="dish-image" src="imagens/tiramisu.png" alt="tiramisu">
 
         <p>
-            Uma releitura da clássica sobremesa francesa feita com leite de coco e baunilha natural.
-            Finalizada com uma crosta de açúcar mascavo caramelizado,
-            crocante por fora e cremosa por dentro. Sofisticada e deliciosa.
+            Camadas de biscoitos embebidos em café orgânico intercaladas com um creme
+             suave à base de castanhas-de-caju e tofu sedoso. Polvilhado com cacau puro, 
+            preserva o sabor intenso do clássico italiano, sem nenhum ingrediente de origem animal.
         </p>
 
 
         <p>
-            Porção: Serve 1 pessoa.<br>
-
+            Porção: Serve 2 pessoas.<br>
+    
         </p>
 
 
         <button>Adicionar</button>
-        <span class="price">R$ 29,90</span>
+        <span class="price">R$ 30,90</span>
     </div>
 
 

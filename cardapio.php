@@ -67,6 +67,16 @@
             </div>
         </a>
 
+        <a href="prato_tiramisu.php">
+            <div class="item" data-category="sobremesas">
+
+                <img src="imagens/tiramisu.png" alt="Tiramisu">
+
+                <div class="item-name">Tiramisu<br>R$ 29.90</div>
+                <button onclick="addToCart(this)">Adicionar</button>
+            </div>
+        </a>
+
         <a href="prato_caponata.php">
             <div class="item" data-category="vegetariano">
 

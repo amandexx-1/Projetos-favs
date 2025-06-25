@@ -27,7 +27,7 @@
 
 
         <p>
-            Porção: Serve 5 pessoa
+            Porção: Serve 5 pessoas.
         </p>
 
 
