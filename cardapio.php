@@ -17,6 +17,15 @@
             <input type="text" placeholder="Buscar pratos" />
         </div>
 
+        <div class="category-buttons">
+            <button>Sobremesas</button>
+            <button>Ovolactovegetariano</button>
+            <button>Lactovegetariano</button>
+            <button>Vegetariano</button>
+            <button>Vegano</button>
+            <button>Sobremesa</button>
+        </div>
+
         <h2>Pratos</h2>
 
 

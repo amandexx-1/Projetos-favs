@@ -87,6 +87,30 @@ h2 {
     text-decoration: none;
 }
 
+.category-buttons {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding: 10px 0;
+    gap: 10px;
+}
+
+.category-buttons button {
+    border: 2px solid orange;
+    border-radius: 20px;
+    padding: 8px 16px;
+    background-color: white;
+    color: orange;
+    font-weight: bold;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.category-buttons button:hover {
+    background-color: orange;
+    color: white;
+}
 
 .botao:hover {
     background-color: #91d189;
