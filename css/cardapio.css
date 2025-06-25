@@ -45,18 +45,17 @@ h2 {
 .item {
     display: flex;
     align-items: center;
-    margin-bottom: 14px;
+    margin-bottom: 15px;
     border: 0.1px #fffdfd;
     cursor: pointer;
-    border-radius: 9px;
-    transition: background-color 0.1s ease; /* garante que o efeito seja suave*/
+    border-radius: 10px;
+    transition: background-color 0.2s ease; /* garante que o efeito seja suave*/
 }
 
 /* após passar o cursor no pedido*/
 
 .item:hover {
-    background-color: #ebdbaf;
-    transition: background-color 0.2s ease; /* cor leve de destaque */
+    background-color: #ebdbaf;  /* cor leve de destaque */
 }
 
 /* config. imagem do prato*/
