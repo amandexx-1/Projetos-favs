@@ -28,7 +28,7 @@
         <h2>Pratos</h2>
 
 
-        <div class="item" data-category="vegano">
+        <div class="item" data-category="ovolactovegetariano">
             <a href="prato_strogonoff.php">
                 <img src="imagens/strogonoff_cogumelos.png" alt="Strogonoff">
             </a>
@@ -37,7 +37,7 @@
         </div>
 
 
-        <div class="item">
+        <div class="item" data-category="vegano">
             <a href="prato_caldo.php">
                 <img src="imagens/sopa.png" alt="sopa">
             </a>
@@ -46,7 +46,7 @@
         </div>
 
 
-        <div class="item">
+        <div class="item" data-category="vegetariano">
             <a href="prato_berinjela.php">
                 <img src="imagens/berinjela.png" alt="Berinjela">
             </a>
@@ -55,7 +55,7 @@
         </div>
 
 
-        <div class="item">
+        <div class="item" data-category="vegetariano">
             <a href="prato_caponata.php">
                 <img src="imagens/caponata.png" alt="Caponata">
             </a>
@@ -64,7 +64,7 @@
         </div>
 
 
-        <div class="item">
+        <div class="item" data-category="vegano">
             <a href="prato_salada.php">
                 <img src="imagens/salada.png" alt="Salada Colorida">
             </a>
@@ -73,7 +73,7 @@
         </div>
 
 
-        <div class="item">
+        <div class="item" data-category="ovolactovegetariano">
             <a href="prato_lasanha_berinjela.php">
                 <img src="imagens/torta_berinjela.png" alt="Lasanha Berinjela">
             </a>
@@ -81,7 +81,7 @@
             <button onclick="addToCart(this)">Adicionar</button>
         </div>
 
-        <div class="item">
+        <div class="item" data-category="vegetariano">
             <a href="prato_bruscheta.php">
                 <img src="imagens/bruscheta.png" alt="Bruscheta">
             </a>
@@ -90,7 +90,7 @@
         </div>
 
 
-        <div class="item">
+        <div class="item" data-category="lactovegetariano">
             <a href="prato_risoto.php">
                 <img src="imagens/risoto_de_legumes.png" alt="Risoto">
             </a>
@@ -98,7 +98,7 @@
             <button onclick="addToCart(this)">Adicionar</button>
         </div>
 
-        <div class="item">
+        <div class="item" data-category="ovolactovegetariano">
             <a href="prato_macarrão.php">
                 <img src="imagens/massa.png" alt="Massa">
             </a>
@@ -107,7 +107,7 @@
         </div>
 
 
-        <div class="item">
+        <div class="item" data-category="ovolactovegetariano">
             <a href="prato_palmito.php">
                 <img src="imagens/torta_p.png" alt="Torta">
             </a>
@@ -150,7 +150,7 @@
             button.disabled = true;
         }
     </script>
-    
+
     <script>
         const buttons = document.querySelectorAll('.category-buttons button');
         const items = document.querySelectorAll('.item');
