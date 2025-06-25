@@ -63,7 +63,7 @@ h2 {
 }
 
 .carousel-slide {
-    display: none;
+    flex: 0 0 100%;
 }
 
 .carousel-slide img {
