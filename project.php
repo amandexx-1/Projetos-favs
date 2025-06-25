@@ -42,7 +42,7 @@
         </div> 
 
 
-        <div class="item">
+        <div class="item" href="prato_strogonoff.php">
             <a href="prato_strogonoff.php">
                 <img src="imagens/strogonoff_cogumelos.png" alt="Strogonoff">
             </a>
