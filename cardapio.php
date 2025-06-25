@@ -37,6 +37,16 @@
             </div>
         </a>
 
+        <a href="prato_creme.php">
+            <div class="item" data-category="sobremesas">
+
+                <img src="imagens/creme.png" alt="Crème Brûlée">
+
+                <div class="item-name">Tarte Tatin de Maçã<br>R$ 29.90</div>
+                <button onclick="addToCart(this)">Adicionar</button>
+            </div>
+        </a>
+
         <a href="prato_caldo.php">
             <div class="item" data-category="vegano">
 
@@ -67,8 +77,8 @@
             </div>
         </a>
 
-        <a href="prato_tartetatin.php"data-category="sobremesas">
-            <div class="item" data-category="ovolactovegetariano">
+        <a href="prato_tartetatin.php">
+            <div class="item" data-category="sobremesas">
 
                 <img src="imagens/tartetatin.png" alt="Tarte Tatin">
 
