@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Salada Tradicional</title>
+    <title>Salada Mediterrânea</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="css/prato_salada_fit.css">
 </head>
@@ -13,27 +13,32 @@
 <body>
     <div class="container">
         <a href="project.php">&lt;</a>
-        <h2>Salada Tradicional</h2>
+        <h2>Salada Mediterrânea</h2>
 
 
-        <img class="dish-image" src="imagens/salada.png" alt="Salada">
+        <img class="dish-image" src="imagens/salada.fit.png" alt="Salada Fit">
 
         <p>
-            Folhas nobres selecionadas, acompanhadas de pepino crocante em cubos, lâminas finas de rabanete e cenoura,
-            finalizadas com suculentos tomatinhos cereja. Uma composição harmoniosa de cores, texturas e frescor,
-            perfeita para despertar os sentidos e valorizar os sabores naturais dos ingredientes.
-            Acompanhada de um fio de azeite extravirgem e flor de sal, sob solicitação.
-        </p>
+            Uma combinação vibrante de sabores frescos e texturas crocantes.
+            Folhas verdes selecionadas, tomatinhos-cereja doces, cubos de pão rústico
+            levemente tostados e azeite extravirgem harmonizam-se nesta clássica receita de inspiração italiana.
 
 
         <p>
             Porção: Serve 1 pessoa<br>
-            Opções de carboidratos e proteínas disponíveis
+            Opções de acompanhamento:
+        </p>
+
+        <p>
+            Tofu marinado grelhado<br>
+            Bolinhos de grão-de-bico com ervas frescas<br>
+            Lascas de castanhas com páprica defumada
+
         </p>
 
 
         <button>Adicionar</button>
-        <span class="price">R$ 30,90</span>
+        <span class="price">R$ 40,90</span>
     </div>
 
 

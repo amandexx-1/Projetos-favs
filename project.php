@@ -39,17 +39,19 @@
                 <div class="carousel-slide">
                     <a href="prato_mouse.php">
                         <img src="imagens/mouse.png" alt="Prato3 Mousse de Maracujá">
+                    </a>
                 </div>
-                </a>
+                
+
             </div>
         </div>
 
-        <a href="prato_strogonoff.php">
+        <a href="prato_salada.fit.php">
             <div class="item">
 
-                <img src="imagens/strogonoff_cogumelos.png" alt="Strogonoff">
+                <img src="imagens/salada.fit.png" alt="Salada Fit">
 
-                <div class="item-name">Strogonoff de Cogumelos<br>R$ 40.90</div>
+                <div class="item-name">Salada Mediterrânea<br>R$ 40.90</div>
                 <button onclick="addToCart(this)">Adicionar</button>
             </div>
         </a>

@@ -37,6 +37,16 @@
             </div>
         </a>
 
+        <a href="prato_salada_fit.php">
+            <div class="item" data-category="vegano">
+
+                <img src="imagens/salada.fit.png" alt="Salada Fit">
+
+                <div class="item-name">Salada Mediterrânea<br>R$ 40.90</div>
+                <button onclick="addToCart(this)">Adicionar</button>
+            </div>
+        </a>
+
         <a href="prato_creme.php">
             <div class="item" data-category="sobremesas">
 
@@ -107,7 +117,7 @@
             </div>
         </a>
 
-         <a href="prato_mouse.php">
+        <a href="prato_mouse.php">
             <div class="item" data-category="sobremesas">
 
                 <img src="imagens/mouse.m.png" alt="Mouse de Maracujá">
