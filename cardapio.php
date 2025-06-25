@@ -160,10 +160,11 @@
                 const category = button.dataset.category;
 
                 items.forEach(item => {
+                    // Adiciona ou remove a classe "hidden"
                     if (item.dataset.category === category || category === 'all') {
-                        item.style.display = 'block';
+                        item.classList.remove('hidden');
                     } else {
-                        item.style.display = 'block';
+                        item.classList.add('hidden');
                     }
                 });
             });
