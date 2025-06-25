@@ -18,12 +18,11 @@
         </div>
 
         <div class="category-buttons">
-            <button>Sobremesas</button>
             <button>Ovolactovegetariano</button>
             <button>Lactovegetariano</button>
             <button>Vegetariano</button>
             <button>Vegano</button>
-            <button>Sobremesa</button>
+            <button>Sobremesas</button>
         </div>
 
         <h2>Pratos</h2>
