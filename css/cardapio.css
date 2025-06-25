@@ -45,7 +45,7 @@ h2 {
 .item {
     display: flex;
     align-items: center;
-    margin-bottom: 15px 2;
+    margin-bottom: 15px 5;
     gap: 10px;
 
 }
@@ -60,7 +60,7 @@ h2 {
 .item-name {
     flex: 1;
     flex-direction: column;
-    gap: 4px;
+    gap: 6px;
 }
 
 .item.hidden {
