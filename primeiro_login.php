@@ -16,11 +16,12 @@
 
         
         <form id="primeiroLoginForm" action="primeiro_login.php" method="POST">
-            <label for="email">Insira um e-mail válido:</label>
-            <input type="email" name="email" placeholder="E-mail" required>
 
             <label for="nome">Nome</label>
             <input type="nome" name="nome" placeholder="Nome" required>
+        
+            <label for="email">Insira um e-mail válido:</label>
+            <input type="email" name="email" placeholder="E-mail" required>
 
             <button type="submit">Enviar</button>
         </form>
