@@ -14,14 +14,13 @@
         <p>Infome seu e-mail</p>
 
         <form id="loginForm" action="login.php" method="POST">
-            <label for="email">Login</label>
             <input type="email" name="email" placeholder="E-mail" required>
             <button type="submit">Enviar</button>
         </form>
 
-        <button onclick="primeiroAcesso()" class="primeiro-acesso">Meu primeiro acesso</button>
         <?php if (!empty($msg)): ?>
-            <div class="mensagem"><?php echo $msg; ?></div>
+            <div class="mensagem"><?php echo $msg; ?>
         <?php endif; ?>
+
     </div>
 </body>
