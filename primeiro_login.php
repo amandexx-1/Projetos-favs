@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    
+
     <div class="container">
         <a href="login.php">&lt;Voltar</a>
         <h1 class="logo">Inhamy</h1>
@@ -22,7 +22,8 @@
 
         <?php if (!empty($msg)): ?>
             <div class="mensagem"><?php echo $msg; ?>
-            <?php endif; ?>
+            <?php endif; 
+        ?>
 
-            </div>
+    </div>
 </body>
