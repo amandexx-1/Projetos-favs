@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $codigo = $_POST["codigo"];
 
     // Conectar ao banco
-    $conn = new mysqli("localhost", "root", "", "inharmy");
+    $conn = new mysqli("localhost", "root", "", "inhamy");
     if ($conn->connect_error) {
         die("Erro de conexão: " . $conn->connect_error);
     }
@@ -67,6 +67,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             window.location.href = "primeiro_acesso.php";
         }
     </script>
+
 </body>
 
 </html>
