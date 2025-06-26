@@ -17,7 +17,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $result = $conn->query($sql);
 
     if ($result->num_rows > 0) {
-        $msg = "Login realizado com sucesso!";
+        $_SESSION["email"] = $email;
+
+        // Redireciona para a página principal
+        header("Location: project.php");
+        exit(); // muito importante para impedir execução adicional
     } else {
         $msg = "E-mail ou código incorreto.";
     }
@@ -49,9 +53,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             <a href="#" class="link">Esqueceu o código?</a>
 
-            <a href="project.php">
-                <button type="submit">Entrar</button>
-            </a>
+
+            <button type="submit">Entrar</button>
+
         </form>
 
         <button onclick="primeiroAcesso()" class="primeiro-acesso">Meu primeiro acesso</button>
