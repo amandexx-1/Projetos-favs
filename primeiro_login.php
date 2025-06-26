@@ -13,10 +13,15 @@
     <div class="container">
         <a href="login.php">&lt;Voltar</a>
         <h1 class="logo">Inhamy</h1>
-        <p>Infome seu e-mail</p>
 
-        <form id="loginForm" action="login.php" method="POST">
+        
+        <form id="primeiroLoginForm" action="primeiro_login.php" method="POST">
+            <label for="email">Insira um e-mail válido:</label>
             <input type="email" name="email" placeholder="E-mail" required>
+
+            <label for="nome">Nome</label>
+            <input type="nome" name="nome" placeholder="Nome" required>
+
             <button type="submit">Enviar</button>
         </form>
 
