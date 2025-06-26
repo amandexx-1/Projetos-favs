@@ -47,7 +47,8 @@ button:hover {
   background-color: #8ca677;
 }
 
-a {
+.container a {
+    text-align: left;
     text-decoration: none;
     color: inherit;
 }
