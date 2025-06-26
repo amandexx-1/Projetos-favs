@@ -47,10 +47,15 @@ button:hover {
     background-color: #8ca677;
 }
 
-
-.container a,
-.container label {
+.container a {
     display: block;
     text-align: left;
-    margin-bottom: 4px;
+    margin-bottom: 10px;
+}
+
+.container form label {
+    display: block;
+    text-align: left;
+    margin-top: 12px;
+    font-weight: bold;
 }
