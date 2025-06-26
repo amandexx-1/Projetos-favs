@@ -9,9 +9,9 @@
 </head>
 
 <body>
-    <a href="login.php">&lt;Voltar</a>
-
+    
     <div class="container">
+        <a href="login.php">&lt;Voltar</a>
         <h1 class="logo">Inhamy</h1>
         <p>Infome seu e-mail</p>
 
