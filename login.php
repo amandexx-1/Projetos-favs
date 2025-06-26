@@ -68,7 +68,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <script>
         function primeiroAcesso() {
             alert("Redirecionando para o cadastro de primeiro acesso...");
-            window.location.href = "primeiro_acesso.php";
+            window.location.href = "primeiro_login.php";
         }
     </script>
 
