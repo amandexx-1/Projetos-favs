@@ -49,7 +49,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             <a href="#" class="link">Esqueceu o código?</a>
 
-            <button type="submit">Entrar</button>
+            <a href="project.php">
+                <button type="submit">Entrar</button>
+            </a>
         </form>
 
         <button onclick="primeiroAcesso()" class="primeiro-acesso">Meu primeiro acesso</button>
